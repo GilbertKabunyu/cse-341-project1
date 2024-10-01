@@ -8,8 +8,8 @@ const doc = {
         title: 'Contacts API',
         description: 'API to manage contacts',
     },
-    host: 'localhost:5000', // Change if deploying
-    schemes: ['http'],
+    host: 'cse-341-project1-b4de.onrender.com',
+    schemes: ['https'],
 };
 
 swaggerAutogen(outputFile, endpointsFiles, doc).then(() => {
